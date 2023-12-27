@@ -219,7 +219,7 @@ export const RpaRoutes = () => {
           />
         ))}
 
-        <Route path="./" element={<Home />} />
+        <Route path="/" element={<Home />} />
         <Route path="/*" element={<Navigate to="/" />} />
       </Routes>
     </RpaLayout>
