@@ -101,7 +101,7 @@ export const Login = () => {
               className="animate__animated animate__slideInLeft"
             >
               <Grid item>
-                <img src="../../assets/logoPJUD.png" alt="LogoPJUD" style={{ width: "60%" }} />
+                <img src={"./src/assets/logoPJUD.png"} alt="LogoPJUD" style={{ width: "60%" }} />
               </Grid>
               <Grid item style={{ margin: "50px" }}>
                 <Typography variant="h5" className="titulo-msg-texto">
