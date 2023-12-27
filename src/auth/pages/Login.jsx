@@ -13,7 +13,7 @@ import {
   FormControl,
   Alert
 } from "@mui/material";
-import logoPjud from "../../assets/logoPJUD-0f054e08.png";
+import logoPjud from "../../assets/logoPJUD.png";
 import Avatar from "@mui/material/Avatar";
 import LockOpenIcon from "@mui/icons-material/LockOpen";
 import Visibility from "@mui/icons-material/Visibility";
