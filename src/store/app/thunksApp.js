@@ -59,23 +59,9 @@ export const startGetJueces = (id_tribunal) => {
 export const startGetExhortosCivil = (id_tribunal) => {
   return async (dispatch) => {
     try {
-      const token = window.localStorage.getItem("rpa-jwt");
 
-      axios(`http://10.13.18.84:5000/updateDB`, {
-        headers: {
-          "Content-Type": "application/json",
-          Authorization: `Bearer ` + token,
-        },
-      });
 
-      const {
-        data: { message },
-      } = await axios(`http://10.13.18.84:5000/getExhortos/${id_tribunal}`, {
-        headers: {
-          "Content-Type": "application/json",
-          Authorization: `Bearer ${token}`,
-        },
-      });
+      const message = {}
 
       dispatch(setExhortosCivil(message));
     } catch (error) {
